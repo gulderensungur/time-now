@@ -1,0 +1,245 @@
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 8%;
+  padding-right: 8%;
+  max-width: 1440px;
+}
+
+.header-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
+.header-logo-area {
+  display: flex;
+}
+
+header {
+  position: relative;
+}
+
+.background {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: #fafafa;
+  width: 200px;
+  height: 200px;
+  height: 100%;
+  z-index: -1;
+  width: 48%;
+  border-bottom-left-radius: 50px;
+}
+
+.logo {
+  margin-right: 24px;
+}
+
+header nav {
+  display: flex;
+  align-items: center;
+}
+
+header nav a {
+  margin-left: 16px;
+  margin-right: 16px;
+  color: #333;
+}
+
+.button {
+  background-color: #130f40;
+  border-radius: 4px;
+  outline: none;
+  border: 0;
+  padding: 12px 24px;
+  color: #fff;
+  letter-spacing: -0.5px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+/* Hero */
+
+.hero {
+  display: flex;
+  align-items: center;
+  padding-top: 48px;
+  padding-bottom: 48px;
+}
+
+.hero-right {
+  flex: 1;
+}
+
+.hero-right {
+  margin-right: -85px;
+}
+
+.hero-left {
+  flex: 1;
+}
+
+.hero-left h1 {
+  font-size: 36px;
+  color: #130f40;
+  font-weight: 600;
+}
+
+.paragraph {
+  color: #333;
+  font-size: 14px;
+  margin-top: 16px;
+  margin-bottom: 16px;
+  line-height: 24px;
+  color: #333;
+  opacity: 0.7;
+}
+
+.view-demo {
+  background-color: transparent;
+  border: 0;
+  margin-left: 12px;
+  color: #333;
+}
+
+.acknowledge-area {
+  display: flex;
+  margin-top: 12px;
+}
+
+.acknowledge-area span {
+  display: flex;
+  align-items: center;
+}
+
+.acknowledge-area span p,
+.acknowledge-area span a {
+  font-size: 12px;
+}
+
+.acknowledge-area img {
+  margin-right: 12px;
+}
+
+.link {
+  text-decoration: underline;
+  color: #333;
+  margin-left: 4px;
+  cursor: pointer;
+}
+
+#company-content {
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
+#company-content .container {
+  display: flex;
+  align-items: center;
+}
+
+#company-content .users {
+  flex: 1;
+  margin-right: 48px;
+}
+
+.medium-title {
+  font-size: 24px;
+  color: #130f40;
+  line-height: 32px;
+  font-weight: 600;
+  margin-bottom: 16px;
+}
+
+.users-images ul {
+  display: flex;
+}
+
+.users-images ul li:not(:last-child) {
+  margin-right: 8px;
+}
+
+#company-content .description {
+  flex: 1;
+}
+
+#company-features {
+  background-color: #fafafa;
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
+#company-features .container {
+  margin-top: 48px;
+  display: flex;
+  gap: 24px;
+}
+
+#company-features .feature-column {
+  flex: 1;
+}
+
+.medium-title {
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.badge {
+  font-size: 11px;
+  color: blue;
+  margin-bottom: 8px;
+}
+
+footer {
+  padding-top: 64px;
+  padding-bottom: 64px;
+}
+
+footer .logo {
+  margin-bottom: 32px;
+}
+
+footer nav {
+  display: flex;
+  gap: 96px;
+}
+
+.footer-nav {
+  display: flex;
+  flex-direction: column;
+}
+
+.nav-title {
+  margin-bottom: 12px;
+  font-weight: bold;
+}
+
+.footer-nav a {
+  margin-top: 6px;
+  margin-bottom: 6px;
+  color: #333;
+  opacity: 0.7;
+  font-size: 13px;
+}
+
+.bottom {
+  display: flex;
+  justify-content: space-between;
+}
+
+.tweet-area {
+  display: flex;
+  border: 1px solid rgb(184, 184, 184);
+  padding: 4px;
+  border-radius: 4px;
+}
+
+.tweet-area input {
+  border: 0;
+  outline: none;
+  text-indent: 8px;
+}
